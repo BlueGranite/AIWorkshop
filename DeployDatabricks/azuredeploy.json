@@ -22,7 +22,7 @@
       }
     },
     "location": {
-      "defaultValue": "East US 2",
+      "defaultValue": "[resourceGroup().location]",
       "type": "string",
       "metadata": {
         "description": "Location for all resources."
