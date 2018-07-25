@@ -13,6 +13,7 @@
       "type": "string",
       "defaultValue": "trial",
       "allowedValues": [
+        "trial",
         "standard",
         "premium"
       ],
@@ -21,8 +22,8 @@
       }
     },
     "location": {
+      "defaultValue": "East US 2",
       "type": "string",
-      "defaultValue": "eastus2",
       "metadata": {
         "description": "Location for all resources."
       }
