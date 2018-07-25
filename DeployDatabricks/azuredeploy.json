@@ -3,6 +3,7 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "workspaceName": {
+      "defaultValue": "BlueGraniteDatabricksDemo",
       "type": "string",
       "metadata": {
         "description": "The name of the Azure Databricks workspace to create."
@@ -10,7 +11,7 @@
     },
     "pricingTier": {
       "type": "string",
-      "defaultValue": "premium",
+      "defaultValue": "trial",
       "allowedValues": [
         "standard",
         "premium"
@@ -21,7 +22,7 @@
     },
     "location": {
       "type": "string",
-      "defaultValue": "[resourceGroup().location]",
+      "defaultValue": "eastus2",
       "metadata": {
         "description": "Location for all resources."
       }
