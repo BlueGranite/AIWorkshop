@@ -4,11 +4,17 @@
     "parameters": {
         "accounts_BlueGraniteVisionDemo_name": {
             "defaultValue": "BlueGraniteVisionDemo",
-            "type": "String"
+            "type": "String",
+            "metadata": {
+                "description": "Vision API Resource Name"
+            }
         },
         "accounts_BlueGraniteTextAnalyticsDemo_name": {
             "defaultValue": "BlueGraniteTextAnalyticsDemo",
-            "type": "String"
+            "type": "String",
+            "metadata": {
+                "description": "Text Analytics API Resource Name"
+            }
         }
     },
     "variables": {},
