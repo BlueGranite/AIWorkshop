@@ -3,15 +3,19 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "name": {
+            "defaultValue": "BlueGraniteTextAnalyticsDemo",
             "type": "string"
         },
         "location": {
+            "defaultValue": "eastus2",
             "type": "string"
         },
         "apiType": {
+            "defaultValue": "TextAnalytics"
             "type": "string"
         },
         "sku": {
+            "defaultValue": "F0"
             "type": "string"
         }
     },
